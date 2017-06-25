@@ -1,0 +1,49 @@
+html{
+    background-color: #000 !important;
+    margin:0px !important;
+    padding: 0px !important;
+}
+body{  
+    color: #777777 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #000 !important;
+}
+.head{
+    background-image: url('../images/girl-tattoos1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.title{
+    font-family: 'Alfa Slab One', cursive;
+
+}
+.yelow{
+    color:#ccaf2d;
+}
+.white{
+    color: #FFF;
+}
+.large{
+    font-size: 6em;
+}
+.medium{
+    font-size: 3em;
+}
+img{
+    width: 100%;
+}
+.centra{
+    padding:70px 30px;
+}
+.top{
+    padding-top:20%;
+}
+.bottom{
+    margin-bottom: 30px;
+}
