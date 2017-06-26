@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-    <div class="head">
+    <div class="head height">
         <div class="menu">
             <ul class="center-block title">
                 <li class="logo"><img src="{{url('')}}/images/logo-good-life-tattoo-150x150.png" alt=""></li>
@@ -41,15 +41,14 @@
     <div class="col-md-12">
         <h2 class="title yelow medium text-center bottom" style="margin-top:30px;">GALERÍA</h2>
         <div class="container">
-            <div class="col-md-3 hover07"><img src="{{url('')}}/galeria/pecho.jpg" class="galeria full"></div>
-            <div class="col-md-3 hover07"><img src="{{url('')}}/galeria/hanamichi.jpg" class="galeria full"></div>
-            <div class="col-md-3 hover07"><img src="{{url('')}}/galeria/hombro.jpg" class="galeria full"></div>
-            <div class="col-md-3 hover07"><img src="{{url('')}}/galeria/brazo.jpg" class="galeria full"></div>
-            <div class="clearfix"></div>
-            <br>
-            <div class="col-md-3 hover07"><img src="{{url('')}}/galeria/pecho2.jpg" class="galeria full"></div>
-            <div class="col-md-3 hover07"><img src="{{url('')}}/galeria/hombro2.jpg" class="galeria full"></div>
-            <div class="col-md-3 hover07"><img src="{{url('')}}/galeria/brazo2.jpg" class="galeria full"></div>
+            <div class="col-md-3 col-xs-6 hover07 bottom"><img src="{{url('')}}/galeria/pecho.jpg" class="galeria full"></div>
+            <div class="col-md-3 col-xs-6 hover07 bottom"><img src="{{url('')}}/galeria/hanamichi.jpg" class="galeria full"></div>
+            <div class="col-md-3 col-xs-6 hover07 bottom"><img src="{{url('')}}/galeria/hombro.jpg" class="galeria full"></div>
+            <div class="col-md-3 col-xs-6 hover07 bottom"><img src="{{url('')}}/galeria/brazo.jpg" class="galeria full"></div>
+            
+            <div class="col-md-3 col-xs-6 hover07 bottom"><img src="{{url('')}}/galeria/pecho2.jpg" class="galeria full"></div>
+            <div class="col-md-3 col-xs-6 hover07 bottom"><img src="{{url('')}}/galeria/hombro2.jpg" class="galeria full"></div>
+            <div class="col-md-3 col-xs-6 hover07 bottom"><img src="{{url('')}}/galeria/brazo2.jpg" class="galeria full"></div>
         </div>
     </div>
     <div class="clearfix"></div>

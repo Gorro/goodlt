@@ -8,13 +8,26 @@ body{
     font-family: 'Open Sans', sans-serif !important;
     background-color: #000 !important;
 }
+@media (min-width: 1024px) {
+  .height{
+      height: 100vh;
+      background-size: 100% 100vh;
+  }
+}
+@media (max-width: 1023px) {
+  .height{
+      height: 75vh;
+      background-size: 100% 75vh;
+  }
+  body{
+      font-size: 30px !important;
+  }
+}
 .head{
     background-image: url('../images/girl-tattoos1.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
     background-position: center top;
     background-attachment: fixed;
-    height: 100vh;
     padding: 0px;
     margin: 0px;
 }
@@ -42,7 +55,7 @@ body{
     padding:70px 30px;
 }
 .top{
-    padding-top:13%;
+    padding-top:16%;
 }
 .bottom{
     margin-bottom: 30px;
