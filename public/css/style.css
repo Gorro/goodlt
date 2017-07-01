@@ -7,22 +7,38 @@ body{
     color: #777777 !important;
     font-family: 'Open Sans', sans-serif !important;
     background-color: #000 !important;
+    font-size: 24px;
+    margin:0px !important;
+    padding: 0px !important;
+}
+h1{
+    margin:-4% 0px 0px 0px !important;
+}
+a,ahover{
+    color: white !important;
 }
 @media (min-width: 1024px) {
-  .height{
-      height: 100vh;
-      background-size: 100% 100vh;
-  }
+    
 }
 @media (max-width: 1023px) {
-  .height{
-      height: 75vh;
-      background-size: 100% 75vh;
-  }
-  body{
-      font-size: 30px !important;
-  }
+    /*.height{
+        height: 75vh;
+        background-size: 100% 75vh;
+    }*/
+    body{
+        font-size: 18px !important;
+    }
+    .menu ul li{    
+        padding-right: 10px !important;
+    }
+    .medium{
+        font-size: 5vw !important;
+    }
+    .menu ul li{
+        font-size: 2vw !important;
+    }
 }
+
 .head{
     background-image: url('../images/girl-tattoos1.jpg');
     background-repeat: no-repeat;
@@ -31,7 +47,10 @@ body{
     padding: 0px;
     margin: 0px;
 }
-
+.height{
+    height: 100vh;
+    background-size: 100% 100vh;
+}
 .title{
     font-family: 'Alfa Slab One', cursive;
 
@@ -39,7 +58,7 @@ body{
 .yelow{
     color:#ccaf2d;
 }
-.white{
+.whitee{
     color: #FFF;
 }
 .large{
@@ -48,14 +67,17 @@ body{
 .medium{
     font-size: 3vw;
 }
-.full{
+.fullw{
     width: 100%;
+}
+.fullh{
+    height: 100vh;
 }
 .centra{
     padding:70px 30px;
 }
 .top{
-    padding-top:16%;
+    width:100%;
 }
 .bottom{
     margin-bottom: 30px;
@@ -64,17 +86,42 @@ body{
     height: 50vh;
 }
 .menu ul{
-    position: relative;
+    position: fixed;
     display: inline;
-    top:50px;   
-    left:10%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .menu ul li{
     display: inline;
     color: white;
     padding-right: 30px;
     font-size: 1.5vw;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
+.menu ul li img{    
+    width:100%;    
+	-webkit-transition:all .3s ease-in-out;
+	transition:all .3s ease-in-out;
+}
+.logo{
+    margin-right: 10%;    
+    padding-left:10%;
+}
+.centra2{
+    margin-top:20px;
+}
+.menu ul li img{ 
+    vertical-align: middle !important;
+    max-width: 10%;
+    height: auto; 
+}
+.center{
+    text-align: center;
+}
+
 /* Blur */
 .hover07 img {
 	-webkit-filter: blur(3px);
@@ -90,9 +137,6 @@ body{
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
-.logo{
-    margin-right: 10%;
-}
-.centra2{
-    margin-top:20px;
+.absolute{
+    position: absolute;
 }

@@ -19,7 +19,7 @@
                 <li>GALERÍA |</li>
                 <li>CONTACTO</li>
             </ul>
-        </div>       
+        </div>      
         <h1 class="title yelow large text-center top">GOOD LIFE TATTO</h1>
         <h2 class="title white medium text-center">ESTUDIO PRIVADO</h2>
     </div>
