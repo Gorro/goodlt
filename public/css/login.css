@@ -1,0 +1,5 @@
+.flex-padre{
+    display: flex !important;
+    display: -webkit-flex !important;
+}
+i{ vertical-align: middle !important; }

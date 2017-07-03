@@ -12,5 +12,8 @@
 */
 
 Route::get('/', function () {
-    return view('goodlife.index2');
+    return view('goodlife.index');
+});
+Route::get('login', function () {
+    return view('goodlife.login');
 });
